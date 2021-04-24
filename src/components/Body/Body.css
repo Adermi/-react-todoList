@@ -1,0 +1,26 @@
+.todo-list-body {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin: 10px 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  padding: 0 15px;
+  line-height: 32px;
+}
+
+.delete-btn {
+  float: right;
+}
+
+.btn-change {
+  margin-right: 10px;
+}
+
+.rewrite-ipt {
+  height: 28px;
+  width: 50%;
+}
